@@ -40,7 +40,7 @@
   "authorName": "Thabo Dlamini",
   "authorFB": "https://www.facebook.com/profile.php?id=61558534761993",
   "authorEmail": "thabosiyabongad@gmail.com",
-  "prefix": "#",
+  "prefix": "¥",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
