@@ -77,7 +77,7 @@ case "withdraw":
     return message.reply("╔════ஜ۩۞۩ஜ═══╗\n\n[🏦prime Bank 🏦]\n\n❏Please enter the correct amount to withdraw 😪•\n\n╚════ஜ۩۞۩ஜ═══╝");
   }
 
-  if (userMoney >= 1e104) {
+  if (userMoney >= 500e104) {
     return message.reply("╔════ஜ۩۞۩ஜ═══╗\n\n[🏦 Bank 🏦]\n\n❏You cannot withdraw money when your balance is already at 1e104 😒•\n\n╚════ஜ۩۞۩ஜ═══╝");
   }
 
