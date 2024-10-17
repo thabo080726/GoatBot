@@ -37,11 +37,11 @@ module.exports = {
 			// Add user to the support group
 			api.addUserToGroup(userID, supportGroupId, (err) => {
 				if (err) {
-					console.error("╔════ஜ۩۞۩ஜ═══╗\n\nFailed to add user to support group:\n\n╚════ஜ۩۞۩ஜ═══╝", err);
+					console.error("╔════ஜ۩۞۩ஜ═══╗\n\nFailed to add user to support group because you are not a VIP:\n\n╚════ஜ۩۞۩ஜ═══╝", err);
 					api.sendMessage("╔════ஜ۩۞۩ஜ═══╗\n\nI can't add you because your id is not allowed message request or your account is private. please add me then try again...\n\n╚════ஜ۩۞۩ஜ═══╝", threadID);
 				} else {
 					api.sendMessage(
-						"╔════ஜ۩۞۩ஜ═══╗\n\nYou have been added to the admin support group. If you didn't find the box in your inbox, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
+						"╔════ஜ۩۞۩ஜ═══╗\n\nHello VIP member you have been added to the admin support group. If you didn't find the box in your inbox, please check your message requests or spam box.\n\n╚════ஜ۩۞۩ஜ═══╝",
 						threadID
 					);
 				}
