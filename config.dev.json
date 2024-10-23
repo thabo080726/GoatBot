@@ -17,30 +17,30 @@
     "ignoreCommand": []
   },
   "adminBot": [
-    "61557780285734",
-    "",
+    "100045311350150",
+    "61558534761993",
     "",
     "",
     ""
   ],
   "GOD": [
-    "61557780285734",
-    ""
+    "100045311350150",
+    "61558534761993"
   ],
   "DEV": [
-    "61557780285734",
-    ""
+    "100045311350150",
+    "61558534761993"
   ],
   "whiteListMode": {
     "enable": false,
     "whiteListIds": [],
     "notes": "if you enable this feature, only the ids in the whiteListIds section can use the bot"
   },
-  "nickNameBot": "𓆩𝙀𝙇𝙄𝙏𝙀 𝙀𝙁-𝙋𝙍𝙄𝙈𝙀 ",
-  "authorName": "Frank kaumba",
-  "authorFB": "https://www.facebook.com/profile.php?id=61557780285734",
-  "authorEmail": "efkidgamer@gmail.com",
-  "prefix": "/",
+  "nickNameBot": "Bläck Bot ",
+  "authorName": "Thabo Siyabonga Dlamini",
+  "authorFB": "https://www.facebook.com/thabo.siyabonga.dlamini.080726",
+  "authorEmail": "thabosiyabongad@gmail.com",
+  "prefix": "¥",
   "database": {
     "type": "sqlite",
     "uriMongodb": "",
